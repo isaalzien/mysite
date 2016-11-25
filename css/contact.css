@@ -1,0 +1,29 @@
+*{padding: 0; margin: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;}
+body{margin: 0; padding: 0;}
+/*start navbar*/
+.navbar-default{background-color: #4BE6FF;border: 0; margin: 0}
+.navbar-default .navbar-nav>li>a{font-size:17px;}
+.navbar-default .navbar-nav>li>a:hover{color: #444141}
+.navbar-brand{font-size: 26px; font-weight: bold}
+/*end navbar*/
+/*start contact*/
+.cont{background: url('../img/DiscountWebDesigner.jpg') no-repeat center center; background-size: cover; height: 600px}
+.contact{margin: auto 30%;padding-top: 90px}
+.contact input {margin-bottom: 10px;color: #777; margin-left: 10px; background-color: transparent; border: 1px solid #777; height: 30px;width:200px}
+.contact textarea{display: block; color: #777; margin-left: 10px; width: 415px; height: 150px; font-weight: bold; background-color:transparent; border: 1px solid #777; resize: none}
+.msg{padding-left: 10px; color: #fff}
+.btn-info{margin-left: 170px}
+/*end contact*/
+@media(max-width:649px) and (min-width:299px)
+{
+    .contact{margin: 0}
+}
+@media(max-width:441px) and (min-width:299px)
+{
+    .contact textarea{width: 100%; margin: 0}
+}
+/*start footer*/
+.foot{background-color: darkgrey}
+.foot span{color: #4BE6FF; font-family: cursive}
+.foot .color{color: dodgerblue}
+/*end footer*/

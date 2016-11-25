@@ -1,0 +1,47 @@
+
+*{padding: 0; margin: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;}
+body{margin: 0; background: url(../img/promouvoir-site-web-silgoweb.jpg)}
+/*start navbar*/
+.navbar-default{background-color: #4BE6FF;border: 0;}
+.navbar-default .navbar-nav>li>a{font-size:17px;}
+.navbar-default .navbar-nav>li>a:hover{color: #444141}
+.navbar-brand{font-size: 26px; font-weight: bold}
+/*end navbar*/
+/*start welcom*/
+.img-welcom{margin-top: -20px;}
+.img-welcom img {width: 100%; height:550px}
+.img-welcom h1{position:absolute; margin-top: -500px; margin-left: 400px; color: #3F7575;text-shadow: -1px 2px #FFF;}
+/*end welcom*/
+/*start Myskills*/
+.Myskills{background-color: firebrick;}
+.Myskills h2{padding: 15px 0; margin: 0}
+.Myskills h3{display:-webkit-inline-box; margin: 0}
+.Myskills p{display:-webkit-inline-box; font-size: 17px}
+.mycolor{color: #fff}
+.Myskills .img-size{ height: 300px; width: 300px; padding-bottom: 10px}
+.skils{color: blanchedalmond;} 
+.progress{height: 30px}
+.progress .progress-bar{text-align: left; text-indent: 10px; font-weight: bold; color: #000;}
+/*end Myskills*/
+/*start footer*/
+.foot{background-color: darkgrey}
+.foot span{color: #4BE6FF; font-family: cursive}
+.foot .color{color: dodgerblue}
+/*end footer*/
+/*keyframes*/
+
+/*end key frames*/
+
+
+
+/*start media*/
+@media(max-width:1219px) and (min-width:568px)
+{
+    .img-welcom h1{margin-left:225px; font-size: 30px}
+}
+@media(max-width:565px) and (min-width:333px)
+{
+    .img-welcom h1{margin-left:100px; font-size: 30px}
+}
+
+/*end meada*/
